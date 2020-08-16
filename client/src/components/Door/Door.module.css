@@ -1,0 +1,14 @@
+.Door{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(246 178 107);
+    display: flex;
+    align-items: center;
+}
+
+.Door_handle{
+    height: 10px;
+    width: 50px;
+    background-color: rgb(185 101 14);
+    margin-left: 10px;
+}

@@ -1,0 +1,52 @@
+.Mailbox {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(153 153 153);
+    color: rgb(87 87 87);
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+    right: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mailbox div{
+    background-color: rgb(87 87 87);
+    width: 100px;
+    height: 10px;
+    
+}
+
+.Mailbox p {
+    font-weight: bold;
+}
+
+.Mailbox_drop {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.950, 0.050, 0.795, 0.035) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.950, 0.050, 0.795, 0.035) both;
+}
+
+ @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  

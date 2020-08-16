@@ -1,0 +1,8 @@
+.roof {
+    position: relative;
+    top: 100px;
+	border-left: 350px solid transparent;
+	border-right: 350px solid transparent;
+    border-bottom: 190px solid rgb(183 125 125);
+    z-index: -1;
+}

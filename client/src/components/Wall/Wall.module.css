@@ -1,0 +1,29 @@
+.Wall {
+    position: relative;
+    top: 100px;
+    height: 520px;
+    width: 700px;
+    background-color: rgb(204 204 204);
+    
+
+}
+
+.windows {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.doors {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+}

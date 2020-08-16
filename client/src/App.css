@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+
+/* .dark_mode {
+  
+  background-color: black !important;
+} */
+
+
+.Mailbox_drop {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.950, 0.050, 0.795, 0.035) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.950, 0.050, 0.795, 0.035) both;
+}
+
+ @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  
+
